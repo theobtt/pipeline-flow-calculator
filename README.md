@@ -17,7 +17,19 @@ Ideal for chemical/process engineers and anyone needing quick fluid dynamics est
 
 ## Installation
 
-1. **Clone the repo**  
+1. **Download the zip archive, extract and navigate to this path in terminal**  
    ```bash
-   git clone https://github.com/theobtt/pipeline-flow-calculator.git
-   cd pipeline-flow-calculator
+   cd path/to/pipeline-flow-calculator-main
+
+2. **Create and activate a virtual environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate (macOS/Linux)
+   venv\Scripts\Activate.ps1 (Windows)
+3. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+4. **Launch the app**
+   ```bash
+   streamlit run app.py
+   
